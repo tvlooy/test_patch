@@ -1,0 +1,12 @@
+diff --git a/Exception/SuspiciousOperationException.php b/Exception/SuspiciousOperationException.php
+index ae7a5f1..0ee42c9 100644
+--- a/Exception/SuspiciousOperationException.php
++++ b/Exception/SuspiciousOperationException.php
+@@ -17,4 +17,7 @@ namespace Symfony\Component\HttpFoundation\Exception;
+  */
+ class SuspiciousOperationException extends \UnexpectedValueException implements RequestExceptionInterface
+ {
++
++       public $message = 'Hello';
++
+ }

@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/http-foundation": "^4.2",
+        "cweagans/composer-patches": "^1.6"
+    },
+    "extra": {
+        "patches": {
+            "symfony/http-foundation": {
+                "Hello patch": "patches/001-http-foundation.patch"
+            }
+        }
+    }
+}
